@@ -1,0 +1,434 @@
+
+/* ----------------------------------------------------------   COMMON   ------------------------------------------------------------- */
+
+container, .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+popup {
+    text-align: center;
+    position:fixed;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+nav .title {
+    margin-right: 20%;
+}
+
+nav .LoginLogout {
+    margin-left: 20%;
+}
+
+nav .UserInformation {
+    margin-left:20%
+}
+
+footer {
+    margin-top: 10px;
+}
+
+footer table {
+    text-align: left;
+    margin: 0 200px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* ----------------------------------------------------------   LANDING PAGE   ------------------------------------------------------------- */
+
+#cover {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 20rem 3rem 20rem;
+}
+
+#cover benefits {
+    display: flex;
+    align-items: center;
+}
+
+#cover benefits * {
+    margin-top: 2rem;
+}
+
+#platformBenefits h2, #platformBenefits h3, #affiliatedRestaurants h3{
+    text-align: center;
+}
+
+#platformBenefits h3 {
+    margin: 0 15%;
+}
+
+#platformBenefits benefits {
+    display: flex;
+    justify-content: center;
+}
+
+#platformBenefits card {
+    margin: 10px;
+}
+
+#platformBenefits a {
+    display: flex;
+    margin: 0 auto;
+}
+
+/* ----------------------------------------------------------   Log In   ------------------------------------------------------------- */
+
+#login {
+    display: flex;
+    margin: 10rem 0;
+    justify-content: center;
+}
+
+#login h1 {
+    margin: auto 0 auto auto;
+}
+
+#login form {
+    width: 300px;
+    margin: auto auto auto auto;
+}
+
+#login input {
+    width: 93%;
+    margin-top: 10px;
+}
+
+#login a {
+    display: flex;
+    margin-top: 10px;
+}
+
+#login button {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* ----------------------------------------------------------   Register / RecoverPass   ------------------------------------------------------------- */
+
+#recoverpass {
+    display: flex;
+    margin: 15rem 0;
+    justify-content: center;
+}
+
+#register {
+    display: flex;
+    margin: 10rem 0;
+    justify-content: center;
+}
+
+#register h1, #recoverpass h1 {
+    margin: auto 0 auto auto;
+}
+
+#register form, #recoverpass form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#register input, #recoverpass input {
+    width: 93%;
+    margin-top: 10px;
+}
+
+#register a, #recoverpass a {
+    display: flex;
+    margin-top: 10px;
+}
+
+#register button, #recoverpass button {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* ----------------------------------------------------------   Feed   ------------------------------------------------------------- */
+
+#feedMenu {
+    margin-top: 6rem;
+}
+
+#feedMenu menu {
+    padding: 0;
+}
+
+#feedMenu h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#feedMenu select, #feedMenu input {
+    margin: 0 10px 0 10px;
+}
+
+restaurantCard {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.restaurant-logo {
+    margin: 0px auto;
+}
+
+/* ----------------------------------------------------------   Profile Page   ------------------------------------------------------------- */
+
+#profileform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+}
+
+#profileform input {
+    margin: 3px 0 1px 0;
+    border-bottom: 1px solid black;
+}
+
+#profileform input[disabled] {
+    border-bottom: 1px solid white;
+}
+
+#profileform button {
+    margin-top: 10px;
+}
+
+#profilename{
+    height: 15%
+}
+
+section_bar, noitems_bar {
+    width: 50%;
+    min-width: 300px;
+    margin-top: 15px;
+}
+
+section_bar h3, restaurant_bar h3, noitems_bar h3 {
+    display: flex;
+    margin-right: auto;
+}
+
+restaurant_bar  {
+    width: 50%;
+    min-width: 300px;
+    margin-top: 10px;
+}
+
+
+popup select, popup input, popup form button {
+    margin-top: 20px;
+}
+
+popup form button:hover {
+    margin-top: 19px;
+    margin-bottom: 1px;
+}
+
+popup {
+    min-width: 20%;
+}
+
+/* ----------------------------------------------------------   Restaurant Page   ------------------------------------------------------------- */
+
+ordersSection, comment {
+    width: 50%;
+    min-width: 300px;
+    margin: 20px auto;
+}
+
+#CategoryBar {
+    width: 52%;
+    min-width: 300px;
+    margin: 15px auto 0 auto;
+}
+
+#CategoryBar h2, order_bar order_state {
+    margin-right: auto;
+}
+
+order_bar order_state {
+    margin-left: 30px;
+}
+
+dishBar, order_bar {
+    width: 50%;
+    min-width: 300px;
+    margin-top: 10px;
+}
+
+ordersSection a, comment input {
+    margin-left: auto;
+}
+
+dishBar container {
+    margin-right: auto;
+}
+
+comment answer {
+    margin-left: auto;
+}
+
+comment answer input {
+    width: 80%;
+    min-width: 120px;
+}
+
+order_bar main_part  {
+    margin-bottom: -20px;
+}
+
+order_bar order_details  {
+    margin-top: 20px;
+    margin-bottom: 18.72px;
+}
+
+order_bar order_details date {
+    margin-left: auto;    
+}
+
+comment p {
+    margin-right: auto;
+}
+
+dishesMenuBar {
+    width: 52%;
+    margin: 0 auto;
+}
+
+dishesMenuBar addDishBar  {
+    width: 60%;
+    margin-right: auto;
+}
+
+
+dishesMenuBar select, dishesMenuBar addDishBar h3 {
+    margin-right: auto;
+}
+
+#profileform .rest_image_open_close {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profileform .rest_image_open_close open_close {
+    margin-top: 15px;
+}
+
+#profileform .rest_image_open_close open_close:hover {
+    cursor: pointer;
+}
+
+/* ----------------------------------------------------------   Shopping cart   ------------------------------------------------------------- */
+
+
+shopping_cart_bar {
+    width: 40%;
+    min-width: 300px;
+    margin-top: 5rem;
+}
+
+shopping_cart {
+    width: 40%;
+    min-width: 300px;
+    margin-top: 25px;
+}
+
+shopping_cart h2 {    
+    width: 75%;
+    margin: 0 auto 15px auto;
+}
+
+shopping_cart a {
+    float: right;
+}
+
+shopping_cart .total {    
+    width: 50%;
+    margin: 15px auto 0 auto;
+}
+
+shopping_cart item {
+    width: 50%;
+    margin: 15px auto;
+}
+
+shopping_cart .left, .right {
+    margin: 5px;
+}
+
+shopping_cart .left {
+    margin: 0 auto 0 0;
+}
+
+shopping_cart .right {
+    margin: 0 0 auto 0;
+}
+
+
+/* ----------------------------------------------------------   Order Sucessful   ------------------------------------------------------------- */
+
+order_sucessful_bar {
+    width: 500px;
+    height: 500px;
+    margin-top: 5rem;
+
+    border: 1px solid #64607D;
+    box-sizing: border-box;
+    border-radius: 40px;
+
+} 
+
+order_sucessful_ellipse {
+    margin: 0px, 0px, 15px, 15px;
+    width: 230px;
+    height: 230px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 140px;
+} 
+
+/* ----------------------------------------------------------   Order Unsucessful   ------------------------------------------------------------- */
+
+order_unsucessful_bar {
+    width: 500px;
+    height: 500px;
+    margin-top: 5rem;
+
+    border: 1px solid #64607D;
+    box-sizing: border-box;
+    border-radius: 40px;
+
+} 
+
+order_unsucessful_ellipse {
+    margin: 0px, 0px, 15px, 15px;
+    width: 230px;
+    height: 230px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 140px;
+    
+} 
+
+order_unsucessful_ellipse .i {
+    right: 100px;
+} 

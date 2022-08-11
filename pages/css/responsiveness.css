@@ -1,0 +1,120 @@
+
+/* ----------------------------------------------------------   COMMON   ------------------------------------------------------------- */
+
+@media only screen and (max-width: 700px) {
+    nav .title {
+        margin-right: 0;
+    }
+
+    nav .UserInformation {
+        margin-left: 0;
+    }
+}
+
+/* ----------------------------------------------------------   Landing Page   ------------------------------------------------------------- */
+
+@media only screen and (max-width: 700px) {
+    #cover img {
+        display: none;
+    }
+
+    #platformBenefits benefits {
+        padding: 15px;
+    }
+
+    #cover {
+        margin-left: 0;
+        margin-right: 0;
+    }    
+}
+
+/* ----------------------------------------------------------   LogIn   ------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 700px) {
+    #login {
+        display: block;
+    }
+
+    #login h1 {
+        margin: 0 0 30px 70px;
+    }
+}
+
+/* ----------------------------------------------------------   Register   ------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 700px) {
+    #recoverpass {
+        display: block;
+    }
+
+    #recoverpass h1 {
+        margin: 0 0 30px 70px;
+    }
+}
+
+/* ----------------------------------------------------------   Recover pass   ------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 700px) {
+    #register {
+        display: block;
+    }
+
+    #register h1 {
+        margin: 0 0 30px 70px;
+    }
+}
+
+/* ----------------------------------------------------------   Profile   ------------------------------------------------------------- */
+
+@media only screen and (max-width: 700px) {
+    #profileform .profileImage {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    #profileform h2 input{
+        font-size: 20px;
+        max-width: 140px;
+    }
+
+    #profileform input{
+        font-size: 15px;
+    }
+}
+
+
+/* ----------------------------------------------------------   Feed   ------------------------------------------------------------- */
+
+@media only screen and (max-width: 700px) {
+    restaurantCard {
+        display: block;
+    }
+
+    restaurantCard information {
+        align-items: center;
+    }
+
+    #feedMenu menu {
+        display: block;
+    }
+}
+
+
+/* ----------------------------------------------------------   Shopping cart   ------------------------------------------------------------- */
+
+@media only screen and (max-width: 1000px) {
+    shopping_cart_bar h2 {
+        font-size: 20px;
+    }
+
+    shopping_cart h2 {
+        font-size: 20px;
+    }
+
+    shopping_cart .left, shopping_cart .right {
+        font-size: 15px;
+    }
+}

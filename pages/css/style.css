@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: Manrope;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.emoji_button {
+    font-size: 17px;
+}
+
+.emoji_button:hover {
+    font-size: 20px;
+}
+
+error {
+    color: red;
+    font-size: 12px;
+}
+
+/* ----------------------------------------------------------   COMMON   ------------------------------------------------------------- */
+
+nav {
+    padding: 15px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+nav a{
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav .title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer table {
+    border-spacing: 75px 0;
+    padding: 50px 0;
+    border-bottom: solid 1px #E5E5EA;
+}
+
+footer p {
+    padding: 20px;
+}
+
+/* ----------------------------------------------------------   LANDING PAGE   ------------------------------------------------------------- */
+
+#cover h1 {
+    font-size: 60px;
+    word-break: normal; 
+    font-weight: 800;
+}
+
+#cover p {
+    font-size: 20px;
+    word-break: normal;
+}
+
+#cover benefits * {
+    padding-right: 8px;
+}
+
+#affiliatedRestaurants {
+    background-color: #fbfbfb;
+    padding: 30px;
+}
+
+#affiliatedRestaurants img {
+    width: 125px;
+    height: auto;
+}
+
+#platformBenefits {
+    background-color: #F3DFCD;
+    padding: 75px 0;
+}
+
+#platformBenefits h2 {
+    font-size: 40px;
+    word-break: normal;
+}
+
+#platformBenefits h3 {
+    font-size: 20px;
+    word-break: normal; 
+    font-weight: normal;
+}
+
+#platformBenefits benefits {
+    padding: 50px;
+}
+
+#platformBenefits card {
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#platformBenefits card .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#platformBenefits a {
+    border: none;
+    background-color: #563623;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    width: 100px;
+}
+
+
+/* ----------------------------------------------------------   Log In   ------------------------------------------------------------- */
+
+#login h1 {
+    font-size: 50px;
+}
+
+#login form {
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#login input {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+#login a {
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+#login button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#login a:hover, #login button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* ----------------------------------------------------------   Register / RecoverPass   ------------------------------------------------------------- */
+
+#register h1, #recoverpass h1 {
+    font-size: 50px;
+}
+
+#register form, #recoverpass form {
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#register input, #recoverpass input {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+#register a, #recoverpass a {
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#register button, #recoverpass button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#register a:hover, #register button:hover, #recoverpass a:hover, #recoverpass button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* ----------------------------------------------------------   Feed   ------------------------------------------------------------- */
+
+#feedMenu h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#feedMenu select, #feedMenu input {
+    border: none;
+    font-size: 18px;
+}
+
+#feedMenu input {
+    border-bottom: 1px solid black;
+    width: 175px;
+    outline:none;
+}
+
+
+restaurantCard {
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+restaurantCard h3 {
+    font-size: 20px;
+}
+
+restaurantCard .restaurant-photo {
+    width: 230px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+restaurantCard .restaurant-logo {
+    width: 100px;
+    object-fit: contain;
+}
+
+restaurantCard information {
+    padding: 20px;
+}
+
+
+/* ----------------------------------------------------------   Profile Page   ------------------------------------------------------------- */
+
+#profileform .profileImage {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100px;
+    padding: 15px 30px 0 0;
+    object-fit: fill;
+}
+
+#profileform > i{
+    font-size: 120px;
+    padding: 30px;
+}
+
+#profileform i:hover{
+    cursor: pointer;
+    font-size: 27px;
+}
+
+#profileform input{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: none;
+}
+
+#profileform #profileFormSave {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 75px;
+    visibility: hidden;
+}
+
+#profileform #profileFormSave:hover {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#profileform .editProfile {
+    background: none;
+    border: none;
+}
+
+#profilename h2 input {
+    font-size: 30px;
+    max-width: 250px;
+}
+
+#profilename i {
+    font-size: 25px;
+}
+
+section_bar {
+    color: white;
+    background-color: #E4E4E4;
+    border-radius: 40px;
+    padding: 0 25px;
+}
+
+section_bar h3, restaurant_bar h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section_bar button, restaurant_bar a, popup container button {
+    color: black;
+    border: none;
+    background: none;
+}
+
+section_bar button:hover, popup container button:hover {
+    cursor: pointer;
+}
+
+restaurant_bar, noitems_bar  {
+    border-radius: 40px;
+    padding: 0 25px;
+    border: 1px solid black;
+}
+
+noitems_bar {
+    border-radius: 40px;
+    padding: 15px 25px;
+    border: 1px solid black;
+}
+
+popup {
+    background-color: white;
+    padding: 30px 50px 50px 60px;
+    border-radius: 40px;
+    border: 1px solid black;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible !important;
+}
+
+popup input {
+    border: none;
+    font-size: 18px;
+}
+
+popup select {
+    font-size: 18px;
+}
+
+popup input {
+    border-bottom: 1px solid black;
+    width: 210px;
+    outline:none;
+}
+
+popup form button {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 100px;
+}
+
+popup form button:hover {
+    cursor: pointer;
+}
+
+popup i {
+    padding-top: 2px;
+    padding-left: 25px;
+}
+
+#receiptPopup .total {    
+    padding: 20px 20px 0 20px;
+    border-top: 1px solid black;
+}
+
+/* ----------------------------------------------------------   Restaurant Page   ------------------------------------------------------------- */
+
+ordersSection, comment {
+    padding: 0 25px;
+    border-bottom: 1px solid black;
+}
+
+comment input {
+    width: 150px;
+    border: none;
+    outline:none;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+comment button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+dishBar, order_bar {
+    border-radius: 40px;
+    padding: 0 25px;
+    border: 1px solid black;
+}
+
+dishBar top_information {
+    padding: 8px 0;
+}
+
+order_bar main_part button {
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+order_bar main_part button:hover {
+    cursor: pointer;
+    font-size: 21px;
+}
+
+order_bar order_state  {
+    border-radius: 40px;
+    border: 1px solid rgb(124, 124, 124);
+    padding: 0px 10px 2px 10px;
+    color: rgb(124, 124, 124);
+}
+
+order_bar order_state:hover {
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+dishBar p, ordersSection p {
+    font-size: 20px;
+}
+
+dishBar button {
+    border: none;
+    background: none;
+    font-size: 19px;
+}
+
+dishBar button:hover {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ordersSection i:hover, dishBar i:hover, comment i:hover {
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: -2px;
+}
+
+order_bar order_details a, order_bar order_details button {
+    font-weight: bold;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    font-size: 15px;
+}
+
+order_bar order_details a:hover, order_bar order_details button:hover {
+    cursor: pointer;
+    color: rgb(46, 46, 46);
+}
+
+order_bar order_details .small {
+    height: 0;
+}
+
+order_bar order_details i {
+    margin-left: 10px;
+}
+
+dishesMenuBar addDishBar  {
+    color: white;
+    background-color: #E4E4E4;
+    border-radius: 40px;
+    padding: 0 25px;
+}
+
+dishesMenuBar addDishBar h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+dishesMenuBar select, dishesMenuBar input {
+    border: none;
+    font-size: 18px;
+}
+
+dishesMenuBar input {
+    border-bottom: 1px solid black;
+    width: 130px;
+    outline:none;
+}
+
+dishBar .quantity {
+    padding: 0 6px;
+    font-size: 20px;
+}
+
+#profileform .rest_image_open_close open_close {
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0 10px;
+}
+
+#profileform .rest_image_open_close open_close:hover {
+    text-decoration: underline;
+}
+
+addDishBar button, #addDishPopup .addDishPopUpButton {
+    border: none;
+    background: none;
+    font-size: 15px;
+}
+
+addDishBar button:hover, #addDishPopup .addDishPopUpButton:hover {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+dishBar .dishPhoto {
+    width: 50px;
+    height: 50px;
+}
+
+/* ----------------------------------------------------------   Shopping cart   ------------------------------------------------------------- */
+
+
+shopping_cart_bar {
+    border-radius: 40px;
+    padding: 10px 0;
+    border: 1px solid black;
+}
+
+shopping_cart_bar h2 {
+    font-size: 35px;
+}
+
+shopping_cart {
+    border-radius: 40px;
+    padding: 10px 0;
+    border: 1px solid black;
+}
+
+shopping_cart h2 {    
+    border-bottom: 1px solid black;
+    padding: 25px 0 15px 0;
+}
+
+shopping_cart a {
+    padding: 20px 30px 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+shopping_cart i {
+    padding-left: 5px;
+}
+
+shopping_cart .total {    
+    padding: 20px 20px 0 20px;
+    border-top: 1px solid black;
+}
+
+shopping_cart .left, .right {
+    font-size: 20px;
+}
+
+/* ----------------------------------------------------------   Order (un)sucessful   ------------------------------------------------------------- */
+
+order_sucessful_ellipse {
+    padding: 20px 30px 20px 15px;
+    font-size: 200px;
+    width: 15%;
+    
+}
+
+order_sucessful_bar {
+    text-align: center;
+}
+
+order_unsucessful_ellipse {
+    padding-top: 12px;
+    font-size: 200px;
+    width: 15%;
+    
+}
+
+order_unsucessful_bar {
+    text-align: center;
+}

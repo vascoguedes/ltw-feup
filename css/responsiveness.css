@@ -1,0 +1,64 @@
+
+/* ----------------------------------------------------------   COMMON   ------------------------------------------------------------- */
+
+@media only screen and (max-width: 700px) {
+    nav .title {
+        margin-right: 0;
+    }
+
+    nav .UserInformation {
+        margin-left: 0;
+    }
+}
+
+/* ----------------------------------------------------------   Profile   ------------------------------------------------------------- */
+
+@media only screen and (max-width: 700px) {
+    #profileform .profileImage {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    #profileform h2 input{
+        font-size: 20px;
+        max-width: 140px;
+    }
+
+    #profileform input{
+        font-size: 15px;
+    }
+}
+
+
+/* ----------------------------------------------------------   Feed   ------------------------------------------------------------- */
+
+@media only screen and (max-width: 700px) {
+    restaurantCard {
+        display: block;
+    }
+
+    restaurantCard information {
+        align-items: center;
+    }
+
+    #feedMenu menu {
+        display: block;
+    }
+}
+
+
+/* ----------------------------------------------------------   Shopping cart   ------------------------------------------------------------- */
+
+@media only screen and (max-width: 1000px) {
+    shopping_cart_bar h2 {
+        font-size: 20px;
+    }
+
+    shopping_cart h2 {
+        font-size: 20px;
+    }
+
+    shopping_cart .left, shopping_cart .right {
+        font-size: 15px;
+    }
+}
